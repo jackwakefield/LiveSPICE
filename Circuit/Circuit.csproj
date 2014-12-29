@@ -3,8 +3,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{5E788E8B-995B-4B54-B3A9-040D65D5509A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -109,13 +107,13 @@
     <Compile Include="Components\VoltageSource.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ComputerAlgebra\ComputerAlgebra\ComputerAlgebra.csproj">
-      <Project>{2877c441-fd0b-4441-a469-e677003ee35a}</Project>
-      <Name>ComputerAlgebra</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Util\Util.csproj">
-      <Project>{0a3db5cb-3c02-4779-b73a-927d2e1ebe54}</Project>
+      <Project>{0A3DB5CB-3C02-4779-B73A-927D2E1EBE54}</Project>
       <Name>Util</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ComputerAlgebra\ComputerAlgebra\ComputerAlgebra.csproj">
+      <Project>{2877C441-FD0B-4441-A469-E677003EE35A}</Project>
+      <Name>ComputerAlgebra</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

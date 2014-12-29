@@ -48,11 +48,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Audio\Audio.csproj">
-      <Project>{f53399e8-b038-4111-b89d-f5c4ab0ccb14}</Project>
+      <Project>{F53399E8-B038-4111-B89D-F5C4AB0CCB14}</Project>
       <Name>Audio</Name>
     </ProjectReference>
     <ProjectReference Include="..\Util\Util.csproj">
-      <Project>{0a3db5cb-3c02-4779-b73a-927d2e1ebe54}</Project>
+      <Project>{0A3DB5CB-3C02-4779-B73A-927D2E1EBE54}</Project>
       <Name>Util</Name>
     </ProjectReference>
   </ItemGroup>
